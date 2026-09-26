@@ -4,13 +4,15 @@ channels:
   - conda-forge
 
 dependencies:
-  - python=3.7
-  - matplotlib=3.0.2
-  - numpy=1.15.4
+  - python=3.11.16
+  - matplotlib=3.11.2
+  - numpy=2.4.6
   - sphinx=3.5.4
   - pytest
   - pytest-cov
+  - pandas=2.2.3
   - pip
   - pip:
       - sphinx-rtd-theme
       - sphinx-prompt==1.4.0
+      - cellpylib==2.4.0
