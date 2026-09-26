@@ -126,7 +126,7 @@ def plot3d_animate(ca, title='evolved', face_color='#1f77b4', edge_color='gray',
 
     def update(i, ca):
         ax.clear()
-        ax.collections.clear()
+        # ax.collections.clear()
 
         if not show_axis:
             ax.xaxis.set_major_locator(ticker.NullLocator())
